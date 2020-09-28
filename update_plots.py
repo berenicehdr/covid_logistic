@@ -81,7 +81,7 @@ for data_type in ("cases", "deaths"):
         # if x_intercept > 0:
         new_x = np.arange(max(xdata)).reshape(-1, 1)
         plt.plot(new_x, model.predict(new_x), color=color)
-        plt.xlabel("Number of %s" % data_type)
+        plt.xlabel("Number of dead people in  %s" % data_type)
         plt.ylabel("Percent growth (diff/ number confirmed)")
         plt.grid()
         plt.ylim([0, 0.5])
