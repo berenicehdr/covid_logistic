@@ -87,7 +87,7 @@ for data_type in ("cases", "deaths"):
         plt.ylim([0, 0.5])
     plt.legend(legends)
     plt.title(
-        "Logistic Model Predictions of %s for %s" % (data_type, today),
+        "Logisticccccc model Predictions of %s for %s" % (data_type, today),
         fontsize=40,
     )
     plt.savefig("%s.png" % data_type)
